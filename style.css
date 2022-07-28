@@ -1,0 +1,19 @@
+.carousel-caption {
+    bottom: 9rem;
+}
+.carousel-item img {
+    max-height: 700px;
+}
+/* .carousel-item {
+    --bs-bg-opacity: 1;
+    background: linear-gradient(45deg, black, transparent) !important;
+}
+.carousel-item.active {
+    background: linear-gradient(45deg, black, transparent);
+    .carousel-item.active {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+    }
+} */
+
+
