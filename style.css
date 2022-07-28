@@ -29,8 +29,10 @@ img.card-img-top {
         Laptop-Device
 =============================*/
 
-@media screen and (max-width: 1024px) and (min-width: 787px) {
-    
+@media screen and (min-width: 787px) {
+    .carousel-item img {
+        height: 700px;
+    }
   }
 
 /*===========================
