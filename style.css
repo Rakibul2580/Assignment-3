@@ -20,35 +20,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*===========================
         Media Queries
 =============================*/
@@ -57,6 +28,9 @@
 =============================*/
 
 @media screen and (min-width: 789px) {
+    .join-text {
+        text-align: center;
+    }
   }
 
 /*===========================
@@ -64,11 +38,14 @@
 =============================*/
 
 @media screen and (max-width: 786px) and (min-width: 427px){
+    ul.navbar-nav.ms-auto.my-2.my-lg-0.navbar-nav-scroll {
+        display: -webkit-box;
+    }
     .carousel-caption {
         bottom: 3rem;
     }
-    ul.navbar-nav.ms-auto.my-2.my-lg-0.navbar-nav-scroll {
-        display: -webkit-box;
+    .carousel-item img {
+        height: 500px;
     }
     .join-text{
         text-align: center;
@@ -79,11 +56,39 @@
         Mobile-Device
 =============================*/
 
-@media screen and (max-width: 426px) {
+@media (max-width: 426px) {
     ul.navbar-nav.ms-auto.my-2.my-lg-0.navbar-nav-scroll {
         display: -webkit-box;
     }
+    li.nav-item a {
+        padding: 0px 6px!important;
+    }
+    .carousel-caption {
+        bottom: 1rem;
+    }
+    .carousel-item img {
+        height: 272px;
+    }
+    .carousel-caption h5 {
+        font-size: 20px!important;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    div#mobile {
+        display: block!important;
+    }
+    .mw-100{
+        width: 100%!important;
+    }
+    .card-body.d-flex.align-items-center {
+        padding: 34px 10px;
+    }
+    .join-text {
+        text-align: center;
+    }
   }
+  
 
 
 
