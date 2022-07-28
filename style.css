@@ -88,6 +88,11 @@ img.card-img-top {
         text-align: center;
     }
   }
+  @media (max-width: 320px){
+    li.nav-item a {
+        padding: 0px 1px!important;
+    }
+  }
   
 
 
