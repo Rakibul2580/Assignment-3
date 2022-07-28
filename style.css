@@ -18,7 +18,9 @@
     opacity: 0.5;
     border-radius: 5px;
 }
-
+img.card-img-top {
+    height: 100%;
+}
 
 /*===========================
         Media Queries
@@ -27,10 +29,8 @@
         Laptop-Device
 =============================*/
 
-@media screen and (min-width: 789px) {
-    .join-text {
-        text-align: center;
-    }
+@media screen and (max-width: 1024px) and (min-width: 787px) {
+    
   }
 
 /*===========================
@@ -61,7 +61,7 @@
         display: -webkit-box;
     }
     li.nav-item a {
-        padding: 0px 6px!important;
+        padding: 0px 3px!important;
     }
     .carousel-caption {
         bottom: 1rem;
